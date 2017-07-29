@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.4/css/bulma.min.css">
+    <!-- ref: https://github.com/isagalaev/highlight.js/tree/master/src/styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title is-1">Bulma Reference</h1>
+        <a href="http://bulma.io/documentation/overview/start/" target="_blank">Docs</a>
+        <a href="https://github.com/jgthms/bulma" target="_blank">GitHub</a>
+
+        <aside class="menu" id="fix">
+            <ul class="menu-list">
+                <a href="#">Top</a>
+                <a href="#typography">#typography</a>
+                <a href="#button">#button</a>
+                <a href="#box">#box</a>
+                <a href="#notification">#notification</a>
+                <a href="#tag">#tag</a>
+                <a href="#message">#message</a>
+                <a href="#old-navbar">#old-navbar</a>
+                <a href="#menu">#menu</a>
+                <a href="#hero">#hero</a>
+                <a href="#card">#card</a>
+                <a href="#level">#level</a>
+                <a href="#form">#form</a>
+                <a href="#table">#table</a>
+                <a href="#grid">#grid</a>
+                <a href="#footer">#footer</a>
+            </ul>
+            <button class="button is-danger is-pulled-right">
+                <span class="icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </button>
+        </aside>
+        <hr>
+
+        <div class="block" id="typography">
+            <h1>h1</h1>
+            <h1 class="title">.title</h1>
+            <h2 class="subtitle">.subtitle</h2>
+            <h1 class="title is-1">.title.is-1</h1>
+            <h2 class="title is-2">.title.is-2</h2>
+            <h3 class="title is-3">.title.is-3</h3>
+            <h4 class="title is-4">.title.is-4</h4>
+            <h5 class="title is-5">.title.is-5</h5>
+            <h6 class="title is-6">.title.is-6</h6>
+        </div>
+        <div class="block">
+            <p>p</p>
+            <p class="content">p.content</p>
+            <p class="content is-small">p.content.is-small</p>
+            <p class="content is-medium">p.content.is-medium</p>
+            <p class="content is-large">p.content.is-large</p>
+        </div>
+
+        <div class="block" id="button">
+            <a href="#!">a</a>
+            <button>button</button>
+            <a href="#!" class="button">a.button</a>
+            <button class="button">button.button</button>
+            <a href="#!" class="button is-small">a.button.is-small</a>
+            <a href="#!" class="button is-medium">a.button.is-medium</a>
+            <a href="#!" class="button is-large">a.button.is-large</a>
+        </div>
+        <div class="block">
+            <a href="#!" class="button is-white">a.button.is-white</a>
+            <a href="#!" class="button is-light">a.button.is-light</a>
+            <a href="#!" class="button is-dark">a.button.is-dark</a>
+            <a href="#!" class="button is-black">a.button.is-black</a>
+            <a href="#!" class="button is-link">a.button.is-link</a>
+        </div>
+        <div class="block">
+            <a href="#!" class="button is-primary">a.button.is-primary</a>
+            <a href="#!" class="button is-info">a.button.is-info</a>
+            <a href="#!" class="button is-success">a.button.is-success</a>
+            <a href="#!" class="button is-warning">a.button.is-warning</a>
+            <a href="#!" class="button is-danger">a.button.is-danger</a>
+        </div>
+        <div class="block">
+            <a href="#!" class="button is-primary is-outlined">a.button.is-primary.is-outlined</a>
+            <a href="#!" class="button is-info is-outlined">a.button.is-info.is-outlined</a>
+            <a href="#!" class="button is-success is-outlined">a.button.is-success.is-outlined</a>
+            <a href="#!" class="button is-warning is-outlined">a.button.is-warning.is-outlined</a>
+            <a href="#!" class="button is-danger is-outlined">a.button.is-danger.is-outlined</a>
+        </div>
+        <div class="block">
+            <a href="#!" class="button is-primary is-inverted">a.button.is-primary.is-inverted</a>
+            <a href="#!" class="button is-info is-inverted">a.button.is-info.is-inverted</a>
+            <a href="#!" class="button is-success is-inverted">a.button.is-success.is-inverted</a>
+            <a href="#!" class="button is-warning is-inverted">a.button.is-warning.is-inverted</a>
+            <a href="#!" class="button is-danger is-inverted">a.button.is-danger.is-inverted</a>
+        </div>
+        <div class="block">
+            <a href="#!" class="button is-hovered">a.button.is-hovered</a>
+            <a href="#!" class="button is-focused">a.button.is-focused</a>
+            <a href="#!" class="button is-active">a.button.is-active</a>
+            <a href="#!" class="button is-loading">a.button.is-loading</a>
+            <a href="#!" class="button" disabled>a.button disabled</a>
+        </div>
+        <div class="block" id="box">
+            <div class="box">
+                <h1 class="title">.box</h1>
+                <p>!@#$%^&*()_+</p>
+            </div>
+                    </div>
+                    <div class="block" id="notification">
+            <div class="notification">
+                <button class="delete"></button>
+                .notification
+            </div>
+            <div class="notification is-primary">
+                <button class="delete"></button>
+                .notification.is-primary
+            </div>
+            <div class="notification is-info">
+                <button class="delete"></button>
+                .notification.is-info
+            </div>
+            <div class="notification is-success">
+                <button class="delete"></button>
+                .notification.is-success
+            </div>
+            <div class="notification is-warning">
+                <button class="delete"></button>
+                .notification.is-warning
+            </div>
+            <div class="notification is-danger">
+                <button class="delete"></button>
+                .notification.is-danger
+            </div>
+        </div>
+
+        <div class="block" id="tag">
+            <span class="tag">span.tag</span>
+            <span class="tag is-medium">span.tag.is-medium</span>
+            <span class="tag is-large">span.tag.is-large</span>
+        </div>
+        <div class="block">
+            <span class="tag">span.tag</span>
+            <span class="tag is-black">span.tag.is-black</span>
+            <span class="tag is-dark">span.tag.is-dark</span>
+            <span class="tag is-light">span.tag.is-light</span>
+            <span class="tag is-white">span.tag.is-white</span>
+            <span class="tag is-primary">span.tag.is-primary</span>
+            <span class="tag is-info">span.tag.is-info</span>
+            <span class="tag is-success">span.tag.is-success</span>
+            <span class="tag is-warning">span.tag.is-warning</span>
+            <span class="tag is-danger">span.tag.is-danger</span>
+        </div>
+        <div class="block">
+            <span class="tag is-primary">
+                .is-small
+                <button class="delete is-small"></button>
+            </span>
+            <span class="tag is-primary is-medium">
+                .is-medium
+                <button class="delete is-small"></button>
+            </span>
+            <span class="tag is-primary is-large">
+                .is-large
+                <button class="delete"></button>
+            </span>
+        </div>
+
+        <div class="block" id="message">
+            <article class="message">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+            <article class="message is-primary">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+            <article class="message is-info">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+            <article class="message is-success">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+            <article class="message is-warning">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+            <article class="message is-danger">
+                <div class="message-header">
+                    .message-header
+                </div>
+                <div class="message-body">
+                    .message-body
+                </div>
+            </article>
+        </div>
+
+        <div class="block" id="old-navbar">
+            <nav class="nav">
+                <div class="nav-left">
+                    <a href="#!" class="nav-item">
+                        <h1 class="title is-4">Logo</h1>
+                    </a>
+                </div>
+                <div class="nav-center">
+                    <a href="#!" class="nav-item">
+                        <span class="icon">
+                            <i class="fa fa-github"></i>
+                        </span>
+                    </a>
+                    <a href="#!" class="nav-item">
+                        <span class="icon">
+                            <i class="fa fa-twitter"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="nav-right nav-menu">
+                    <a href="#!" class="nav-item">nav-right.nav-menu.is-active</a>
+                    <a href="#!" class="nav-item">nav-right.nav-menu</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="block" id="menu">
+            <aside class="menu">
+                <p class="menu-label">
+                    Label 1
+                </p>
+                <ul class="menu-list">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                </ul>
+                <p class="menu-label">
+                    Label 2
+                </p>
+                <ul class="menu-list">
+                    <li>
+                        <a href="#!" class="is-active">Link 1</a>
+                        <ul>
+                            <li><a href="#!">SubLink 1</a></li>
+                            <li><a href="#!">SubLink 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#!">Link 2</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <div class="block" id="hero">
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-info">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-success">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-warning">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-danger">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">Hero Title</h1>
+                        <h1 class="subtitle">Hero SubTitle</h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="block" id="card">
+            <div class="card">
+                <div class="card-content">
+                    <p class="title">.card</p>
+                    <p class="subtitle">.card-content</p>
+                </div>
+                <footer class="card-footer">
+                    <p class="card-footer-item">
+                        <span>.card-footer-item <a href="#!">link</a></span>
+                    </p>
+                    <p class="card-footer-item">
+                        <span><a href="#!"><i class="fa fa-facebook"></i> Facebook</a></span>
+                    </p>
+                </footer>
+            </div>
+        </div>
+
+        <div class="block" id="pagination">
+            <nav class="pagination">
+                <a href="#!" class="pagination-previous" disabled>Previous</a>
+                <a href="#!" class="pagination-previous">Next Page</a>
+                <ul class="pagination-list">
+                    <li><a href="#!" class="pagination-link is-current">1</a></li>
+                    <li><a href="#!" class="pagination-link is-current">2</a></li>
+                    <li><a href="#!" class="pagination-link is-current">3</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="block" id="level">
+            <nav class="level">
+                <div class="level-left">
+                    <p class="level-item"><strong>.level-item</strong></p>
+                    <p class="level-item">.level-item</p>
+                    <p class="level-item">
+                        <a href="#!" class="button is-primary">.level-item</a>
+                    </p>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        <div class="field">
+                            <p class="control">
+                                <input type="text" class="input" placeholder="field > control > input">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="block" id="form">
+            <form action="#!">
+                <div class="field">
+                    <label class="label">label.label</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="field">
+                    <label class="label">label.label</label>
+                    <input type="text" class="input is-primary" placeholder=".is-primary">
+                </div>
+                <div class="field">
+                    <label class="label">label.label</label>
+                    <input type="text" class="input is-danger" placeholder=".is-danger">
+                </div>
+
+                <div class="field">
+                    <label class="label">label.label</label>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>.select > select > option</option>
+                                <option>option</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="textarea.textarea"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="block">
+            <div class="field has-addons">
+                <p class="control">
+                    <input type="text" class="input" placeholder="input.input">
+                </p>
+                <p class="control">
+                    <a href="#!" class="button is-info">a.button.is-info</a>
+                </p>
+            </div>
+            <div class="field has-addons">
+                <p class="control">
+                    <span class="select">
+                        <select>
+                            <option>.field.has-addons</option>
+                            <option>.has-addons</option>
+                        </select>
+                    </span>
+                </p>
+                <p class="control">
+                    <input type="text" class="input" placeholder="input.input">
+                </p>
+                <p class="control">
+                    <a href="#!" class="button is-info">a.button.is-info</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="block" id="table">
+            <table class="table">
+                <thread>
+                    <tr>
+                        <th>table.table</th>
+                        <th>table.table</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>table.table</td>
+                        <td>table.table</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table is-striped">
+                <thread>
+                    <tr>
+                        <th>table.table.is-striped</th>
+                        <th>table.table.is-striped</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>table.table.is-striped</td>
+                        <td>table.table.is-striped</td>
+                    </tr>
+                    <tr>
+                        <td>table.table.is-striped</td>
+                        <td>table.table.is-striped</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table is-bordered">
+                <thread>
+                    <tr>
+                        <th>table.table.is-bordered</th>
+                        <th>table.table.is-bordered</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>table.table.is-bordered</td>
+                        <td>table.table.is-bordered</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table is-narrow">
+                <thread>
+                    <tr>
+                        <th>table.table.is-narrow</th>
+                        <th>table.table.is-narrow</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>table.table.is-narrow</td>
+                        <td>table.table.is-narrow</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="block">
+            <table class="table is-striped">
+                <thread>
+                    <tr>
+                        <th>th</th>
+                        <th>th</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td>tr>td*2</td>
+                        <td></td>
+                    </tr>
+                    <tr class="is-selected">
+                        <td>tr.is-selected>td</td>
+                        <td>tr.is-selected>td</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>tr>td*2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="block" id="grid">
+            <div class="columns">
+                <div class="column">
+                    <p class="notification">.columns.column</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <p class="notification">.columns>.column*2</p>
+                </div>
+                <div class="column">
+                    <p class="notification">.columns>.column*2</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <p class="notification">.columns>.column*3</p>
+                </div>
+                <div class="column">
+                    <p class="notification">.columns>.column*3</p>
+                </div>
+                <div class="column">
+                    <p class="notification">.columns>.column*3</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="columns">
+                <div class="column is-2">
+                    <p class="notification">.columns>(.column-2>div)+(.column-8>div)+(.column-2>div)</p>
+                </div>
+                <div class="column is-8">
+                    <p class="notification">.columns>(.column-2>div)+(.column-8>div)+(.column-2>div)</p>
+                </div>
+                <div class="column is-2">
+                    <p class="notification">.columns>(.column-2>div)+(.column-8>div)+(.column-2>div)</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="columns">
+                <div class="column is-three-quarters">
+                    <p class="notification">.column.is-three-quarters</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <p class="notification">.column.is-two-thirds</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="columns">
+                <div class="column is-half">
+                    <p class="notification">.column.is-half</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+                <div class="column">
+                    <p class="notification">Auto</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                        footer.footer>.container>.content.has-text-centered>p+p>a.icon>i.fa.fa-github
+                    </p>
+                    <a class="icon" href="https://github.com/lovenery/bulma-ref">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="static/outdent.js"></script>
+    <script src="static/menu.js"></script>
+    <script src="static/code.js"></script>
+    <script>
+        addCodeBlocks();
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>
