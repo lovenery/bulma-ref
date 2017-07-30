@@ -1,5 +1,5 @@
 function addCodeBlocks() {
-    var blocks = document.querySelectorAll(".block");
+    let blocks = document.querySelectorAll(".block");
     // console.log(blocks);
     for (var index = 0; index < blocks.length; index++) {
         var pre_block = document.createElement("PRE");

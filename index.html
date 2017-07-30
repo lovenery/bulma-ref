@@ -13,13 +13,13 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title is-1">Bulma Reference</h1>
+        <h1 class="title is-1" id="top">Bulma Reference</h1>
         <a href="http://bulma.io/documentation/overview/start/" target="_blank">Docs</a>
         <a href="https://github.com/jgthms/bulma" target="_blank">GitHub</a>
 
         <aside class="menu" id="fix">
             <ul class="menu-list">
-                <a href="#">Top</a>
+                <a href="#top">Top</a>
                 <a href="#typography">#typography</a>
                 <a href="#button">#button</a>
                 <a href="#box">#box</a>
@@ -30,6 +30,7 @@
                 <a href="#menu">#menu</a>
                 <a href="#hero">#hero</a>
                 <a href="#card">#card</a>
+                <a href="#pagination">#pagination</a>
                 <a href="#level">#level</a>
                 <a href="#form">#form</a>
                 <a href="#table">#table</a>
@@ -112,8 +113,8 @@
                 <h1 class="title">.box</h1>
                 <p>!@#$%^&*()_+</p>
             </div>
-                    </div>
-                    <div class="block" id="notification">
+        </div>
+        <div class="block" id="notification">
             <div class="notification">
                 <button class="delete"></button>
                 .notification
@@ -604,20 +605,19 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer" id="footer">
-            <div class="container">
-                <div class="content has-text-centered">
-                    <p>
-                        footer.footer>.container>.content.has-text-centered>p+p>a.icon>i.fa.fa-github
-                    </p>
-                    <a class="icon" href="https://github.com/lovenery/bulma-ref">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </footer>
     </div>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    footer.footer>.container>.content.has-text-centered>p+p>a.icon>i.fa.fa-github
+                </p>
+                <a class="icon" href="https://github.com/lovenery/bulma-ref">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script src="static/outdent.js"></script>
     <script src="static/menu.js"></script>
